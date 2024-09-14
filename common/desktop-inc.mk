@@ -14,3 +14,11 @@
 #
 
 # Configurations common to Trusty builds for Android Desktop.
+
+TRUSTY_BUILTIN_USER_TASKS := \
+	trusty/user/app/gatekeeper \
+	trusty/user/app/keymint/app \
+	trusty/user/app/storage \
+	trusty/user/base/app/apploader \
+	trusty/user/base/app/system_state_server_static \
+	trusty/user/desktop/app/gsc_tunnel/app \
