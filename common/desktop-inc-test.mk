@@ -19,7 +19,8 @@ include ../../common/desktop-inc.mk
 
 TRUSTY_RUST_USER_TESTS += \
 	trusty/user/app/keymint \
-	trusty/user/desktop/app/finger_guard \
+	trusty/user/base/lib/pvmdice \
+	trusty/user/desktop/app/finger_guard/svc \
 	trusty/user/desktop/app/gsc_svc \
 	trusty/user/desktop/app/pinweaver \
 	trusty/user/desktop/lib/boot_params \
